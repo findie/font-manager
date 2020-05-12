@@ -14,11 +14,12 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "config:cmake": "node-gyp configure -- -f cmake"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devongovett/font-manager.git"
+    "url": "https://github.com/findie/font-manager.git"
   },
   "keywords": [
     "font",
@@ -27,11 +28,14 @@
     "substitute",
     "enumerate"
   ],
-  "author": "Devon Govett <devongovett@gmail.com>",
+  "contributors": [
+    "Devon Govett <devongovett@gmail.com>",
+    "Stefan <dev@findie.me>"
+  ],
   "license": "MIT",
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/devongovett/font-manager/issues"
+    "url": "https://github.com/findie/font-manager/issues"
   },
-  "homepage": "https://github.com/devongovett/font-manager"
+  "homepage": "https://github.com/findie/font-manager"
 }
