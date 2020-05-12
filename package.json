@@ -16,6 +16,8 @@
   },
   "scripts": {
     "test": "mocha",
+    "debug": "node-gyp build --debug -j1",
+    "config": "node-gyp configure",
     "config:cmake": "node-gyp configure -- -f cmake"
   },
   "repository": {
