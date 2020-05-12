@@ -1,8 +1,8 @@
 {
   "name": "font-manager",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "description": "Provides access to the system font catalog",
-  "main": "build/Release/fontmanager",
+  "main": "build/Debug/fontmanager",
   "types": "index.d.ts",
   "dependencies": {
     "node-addon-api": "^2.0.0"
